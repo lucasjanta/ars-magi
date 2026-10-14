@@ -1,5 +1,5 @@
 extends Control
-@onready var frase_label: Label = $ScrollContainer/MarginContainer/VBoxContainer/HBoxContainer/VBoxContainer2/FraseLabel
+@onready var frase_label: Label = $ScrollContainer/MarginContainer/VBoxContainer/TodayContainer/VBoxContainer2/FraseLabel
 
 const FRASES: Array[String] = [
 	"O primeiro mistério a conhecer é a si mesmo",
