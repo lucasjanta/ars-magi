@@ -1,5 +1,26 @@
 [gd_scene format=3 uid="uid://cg843ym61xycu"]
 
+[ext_resource type="FontFile" uid="uid://6dogfyhc431h" path="res://assets/fonts/CormorantGaramond-VariableFont_wght.ttf" id="1_p1y6j"]
+[ext_resource type="Script" uid="uid://8j8jne8nahvg" path="res://scripts/today_screen.gd" id="1_wv8ds"]
+[ext_resource type="Texture2D" uid="uid://ccv1awuxk0ec7" path="res://assets/icons/Atlas de icones.png" id="2_wv8ds"]
+
+[sub_resource type="FontVariation" id="FontVariation_n04c7"]
+base_font = ExtResource("1_p1y6j")
+variation_opentype = {
+2003265652: 700
+}
+variation_embolden = 0.26
+
+[sub_resource type="FontVariation" id="FontVariation_ay80e"]
+base_font = ExtResource("1_p1y6j")
+variation_opentype = {
+2003265652: 500
+}
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f1574"]
+atlas = ExtResource("2_wv8ds")
+region = Rect2(103, 77, 207, 174)
+
 [node name="TodayScreen" type="Control" unique_id=1585544024]
 layout_mode = 3
 anchors_preset = 15
@@ -7,6 +28,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_wv8ds")
 
 [node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=709643939]
 layout_mode = 1
@@ -36,8 +58,33 @@ layout_mode = 2
 
 [node name="HojeLabel" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/HBoxContainer/VBoxContainer" unique_id=1865361963]
 layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_n04c7")
+theme_override_font_sizes/font_size = 32
 text = "Hoje"
 
 [node name="DataLabel" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/HBoxContainer/VBoxContainer" unique_id=1386876331]
 layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_ay80e")
 text = "Qua, 14 de outubro"
+
+[node name="Control" type="Control" parent="ScrollContainer/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1487119125]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1628623281]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+texture = SubResource("AtlasTexture_f1574")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/HBoxContainer" unique_id=681613235]
+layout_mode = 2
+
+[node name="FraseLabel" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/HBoxContainer/VBoxContainer2" unique_id=933549269]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_ay80e")
+text = "O homem é o único criador e juíz de seu destino."
+horizontal_alignment = 2
+autowrap_mode = 2

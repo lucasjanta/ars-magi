@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bokl4xq4qs1ns"]
 
 [ext_resource type="Texture2D" uid="uid://bkd60r44gcsdd" path="res://assets/buttons/today-icon.png" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://cg843ym61xycu" path="res://scenes/today_screen.tscn" id="1_tefeu"]
 [ext_resource type="Texture2D" uid="uid://buii368cec5n3" path="res://assets/buttons/alvo.png" id="2_tbgi4"]
 [ext_resource type="Texture2D" uid="uid://cq1gcocka3alm" path="res://assets/buttons/tasks.png" id="3_tefeu"]
 [ext_resource type="Texture2D" uid="uid://sx1v88ma3ldu" path="res://assets/buttons/diario.png" id="4_o6xl0"]
@@ -40,6 +41,9 @@ layout_mode = 2
 [node name="ScreenContainer" type="MarginContainer" parent="SafeArea/VBoxContainer" unique_id=181304272]
 layout_mode = 2
 size_flags_vertical = 3
+
+[node name="TodayScreen" parent="SafeArea/VBoxContainer/ScreenContainer" unique_id=1585544024 instance=ExtResource("1_tefeu")]
+layout_mode = 2
 
 [node name="HSeparator" type="HSeparator" parent="SafeArea/VBoxContainer" unique_id=1691853530]
 layout_mode = 2
