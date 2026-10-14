@@ -1,0 +1,82 @@
+[gd_scene format=3 uid="uid://bokl4xq4qs1ns"]
+
+[ext_resource type="Texture2D" uid="uid://bkd60r44gcsdd" path="res://assets/buttons/today-icon.png" id="1_o5qli"]
+[ext_resource type="Texture2D" uid="uid://buii368cec5n3" path="res://assets/buttons/alvo.png" id="2_tbgi4"]
+[ext_resource type="Texture2D" uid="uid://cq1gcocka3alm" path="res://assets/buttons/tasks.png" id="3_tefeu"]
+[ext_resource type="Texture2D" uid="uid://sx1v88ma3ldu" path="res://assets/buttons/diario.png" id="4_o6xl0"]
+[ext_resource type="Texture2D" uid="uid://d00lnc26hopdn" path="res://assets/buttons/progresso.png" id="5_tipki"]
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_ie5d1"]
+color = Color(0.9843137, 0.9490196, 0.21176471, 1)
+
+[node name="Main" type="Control" unique_id=1901844594]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="ColorRect" parent="." unique_id=122715696]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.000107629385, 0, 0.111719616, 1)
+
+[node name="SafeArea" type="MarginContainer" parent="." unique_id=164055374]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="SafeArea" unique_id=573299960]
+layout_mode = 2
+
+[node name="ScreenContainer" type="MarginContainer" parent="SafeArea/VBoxContainer" unique_id=181304272]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HSeparator" type="HSeparator" parent="SafeArea/VBoxContainer" unique_id=1691853530]
+layout_mode = 2
+theme_override_styles/separator = SubResource("StyleBoxLine_ie5d1")
+
+[node name="BottomContainer" type="HBoxContainer" parent="SafeArea/VBoxContainer" unique_id=1544578914]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+theme_override_constants/separation = 24
+alignment = 1
+
+[node name="TodayButton" type="TextureButton" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=840454062]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+texture_normal = ExtResource("1_o5qli")
+stretch_mode = 5
+
+[node name="FocusButton" type="TextureButton" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=1002231745]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+texture_normal = ExtResource("2_tbgi4")
+stretch_mode = 5
+
+[node name="ActivitiesButton" type="TextureButton" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=830242250]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+texture_normal = ExtResource("3_tefeu")
+stretch_mode = 5
+
+[node name="DiaryButton" type="TextureButton" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=631598347]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+texture_normal = ExtResource("4_o6xl0")
+stretch_mode = 5
+
+[node name="ProgressButton" type="TextureButton" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=833887678]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+texture_normal = ExtResource("5_tipki")
+stretch_mode = 5
