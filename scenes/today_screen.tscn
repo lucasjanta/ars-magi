@@ -57,12 +57,12 @@ corner_detail = 5
 atlas = ExtResource("2_wv8ds")
 region = Rect2(454, 69, 192, 187)
 
-[sub_resource type="FontVariation" id="FontVariation_f1574"]
-base_font = ExtResource("4_6wdha")
+[sub_resource type="FontVariation" id="FontVariation_ie5d1"]
+base_font = ExtResource("1_p1y6j")
 variation_opentype = {
-1869640570: 20,
-2003265652: 600
+2003265652: 700
 }
+variation_embolden = 0.25
 
 [sub_resource type="FontVariation" id="FontVariation_8smdt"]
 base_font = ExtResource("4_6wdha")
@@ -149,6 +149,155 @@ region = Rect2(813, 307, 133, 144)
 atlas = ExtResource("2_wv8ds")
 region = Rect2(1112, 314, 199, 132)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rb6yn"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+bg_color = Color(0.101960786, 0.101960786, 0.101960786, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.98039216, 0.8, 0.34901962, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+corner_detail = 5
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ie5d1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_texfu"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ub53g"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_texfu"]
+atlas = ExtResource("2_wv8ds")
+region = Rect2(122, 525, 177, 138)
+
+[sub_resource type="FontVariation" id="FontVariation_f1574"]
+base_font = ExtResource("4_6wdha")
+variation_opentype = {
+1869640570: 30,
+2003265652: 300
+}
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aowou"]
+atlas = ExtResource("2_wv8ds")
+region = Rect2(848, 734, 72, 127)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tg2r8"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+bg_color = Color(0.101960786, 0.101960786, 0.101960786, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.98039216, 0.8, 0.34901962, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+corner_detail = 5
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ub53g"]
+atlas = ExtResource("2_wv8ds")
+region = Rect2(810, 511, 135, 154)
+
+[sub_resource type="FontVariation" id="FontVariation_aowou"]
+base_font = ExtResource("4_6wdha")
+variation_opentype = {
+1869640570: 30,
+2003265652: 300
+}
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j80dy"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.22959325, 0.22959325, 0.22959322, 0.8784314)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5qdw6"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.8352941, 0.46666667, 0.4, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="FontVariation" id="FontVariation_gq0io"]
+base_font = ExtResource("4_6wdha")
+variation_opentype = {
+1869640570: 32,
+2003265652: 300
+}
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pf7je"]
+atlas = ExtResource("2_wv8ds")
+region = Rect2(848, 734, 72, 127)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1lbyi"]
+atlas = ExtResource("2_wv8ds")
+region = Rect2(1133, 515, 158, 156)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a83m2"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.3372549, 0.5686275, 0.93333334, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5qdw6"]
+atlas = ExtResource("2_wv8ds")
+region = Rect2(123, 724, 168, 148)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1lbyi"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.56078434, 0.7372549, 0.6039216, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a83m2"]
+atlas = ExtResource("2_wv8ds")
+region = Rect2(475, 719, 147, 157)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gq0io"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.47058824, 0.3882353, 0.7411765, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
 [node name="TodayScreen" type="Control" unique_id=1585544024]
 layout_mode = 3
 anchors_preset = 15
@@ -165,6 +314,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+horizontal_scroll_mode = 0
 
 [node name="MarginContainer" type="MarginContainer" parent="ScrollContainer" unique_id=37332792]
 layout_mode = 2
@@ -233,21 +383,23 @@ text = " Iniciar Foco"
 icon = SubResource("AtlasTexture_ie5d1")
 expand_icon = true
 
-[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer" unique_id=100892854]
+[node name="FastInputContainer" type="VBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer" unique_id=100892854]
 layout_mode = 2
+theme_override_constants/separation = 8
 
-[node name="RegistroLabel" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer" unique_id=934912280]
+[node name="RegistroLabel" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/FastInputContainer" unique_id=934912280]
 layout_mode = 2
-theme_override_fonts/font = SubResource("FontVariation_f1574")
+theme_override_fonts/font = SubResource("FontVariation_ie5d1")
+theme_override_font_sizes/font_size = 24
 text = "Registro Rápido"
 
-[node name="GridContainer" type="GridContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer" unique_id=426132749]
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/FastInputContainer" unique_id=426132749]
 layout_mode = 2
 size_flags_horizontal = 4
 theme_override_constants/h_separation = 24
 columns = 2
 
-[node name="MeditButton" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/GridContainer" unique_id=1972692104]
+[node name="MeditButton" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/FastInputContainer/GridContainer" unique_id=1972692104]
 custom_minimum_size = Vector2(140, 40)
 layout_mode = 2
 theme_override_constants/icon_max_width = 24
@@ -260,7 +412,7 @@ text = "Meditação"
 icon = SubResource("AtlasTexture_28iqy")
 expand_icon = true
 
-[node name="LeituraButton" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/GridContainer" unique_id=402893703]
+[node name="LeituraButton" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/FastInputContainer/GridContainer" unique_id=402893703]
 custom_minimum_size = Vector2(140, 40)
 layout_mode = 2
 theme_override_constants/icon_max_width = 24
@@ -273,7 +425,7 @@ text = "Leitura"
 icon = SubResource("AtlasTexture_8smdt")
 expand_icon = true
 
-[node name="DesenhoButton" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/GridContainer" unique_id=1599202398]
+[node name="DesenhoButton" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/FastInputContainer/GridContainer" unique_id=1599202398]
 custom_minimum_size = Vector2(140, 40)
 layout_mode = 2
 theme_override_constants/icon_max_width = 24
@@ -286,7 +438,7 @@ text = "Desenho"
 icon = SubResource("AtlasTexture_0pj1k")
 expand_icon = true
 
-[node name="MuayButton" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/GridContainer" unique_id=120173806]
+[node name="MuayButton" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/FastInputContainer/GridContainer" unique_id=120173806]
 custom_minimum_size = Vector2(140, 40)
 layout_mode = 2
 theme_override_constants/icon_max_width = 20
@@ -299,7 +451,7 @@ text = "Muay Thai"
 icon = SubResource("AtlasTexture_rb6yn")
 expand_icon = true
 
-[node name="MusicButton" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/GridContainer" unique_id=1488808638]
+[node name="MusicButton" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/FastInputContainer/GridContainer" unique_id=1488808638]
 custom_minimum_size = Vector2(140, 40)
 layout_mode = 2
 theme_override_constants/icon_max_width = 24
@@ -312,7 +464,7 @@ text = "Música"
 icon = SubResource("AtlasTexture_tg2r8")
 expand_icon = true
 
-[node name="JogosButton" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/GridContainer" unique_id=624314004]
+[node name="JogosButton" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/FastInputContainer/GridContainer" unique_id=624314004]
 custom_minimum_size = Vector2(140, 40)
 layout_mode = 2
 theme_override_constants/icon_max_width = 24
@@ -324,3 +476,318 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_0pj1k")
 text = "Jogos"
 icon = SubResource("AtlasTexture_j80dy")
 expand_icon = true
+
+[node name="GameDevContainer" type="VBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer" unique_id=1006788112]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Label" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/GameDevContainer" unique_id=1032469395]
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_ie5d1")
+theme_override_font_sizes/font_size = 24
+text = "Game Dev"
+
+[node name="PanelContainer" type="PanelContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/GameDevContainer" unique_id=1834910910]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_rb6yn")
+
+[node name="Button" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/GameDevContainer/PanelContainer" unique_id=1511081737]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ie5d1")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_texfu")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ub53g")
+
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/GameDevContainer/PanelContainer" unique_id=2073959648]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 4
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/GameDevContainer/PanelContainer/MarginContainer" unique_id=1290882598]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/MarginContainer/VBoxContainer/GameDevContainer/PanelContainer/MarginContainer/HBoxContainer" unique_id=950070266]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+texture = SubResource("AtlasTexture_texfu")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/GameDevContainer/PanelContainer/MarginContainer/HBoxContainer" unique_id=1531613888]
+layout_mode = 2
+theme_override_constants/separation = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/GameDevContainer/PanelContainer/MarginContainer/HBoxContainer/VBoxContainer" unique_id=1597071592]
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_f1574")
+text = "Continuar no Game Dev"
+
+[node name="Label2" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/GameDevContainer/PanelContainer/MarginContainer/HBoxContainer/VBoxContainer" unique_id=1375829753]
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_f1574")
+theme_override_font_sizes/font_size = 12
+text = "Escolher projeto"
+
+[node name="Control" type="Control" parent="ScrollContainer/MarginContainer/VBoxContainer/GameDevContainer/PanelContainer/MarginContainer/HBoxContainer" unique_id=1862747423]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect2" type="TextureRect" parent="ScrollContainer/MarginContainer/VBoxContainer/GameDevContainer/PanelContainer/MarginContainer/HBoxContainer" unique_id=20061053]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+size_flags_vertical = 4
+texture = SubResource("AtlasTexture_aowou")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer" unique_id=11121429]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Label" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer" unique_id=591860159]
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_ie5d1")
+theme_override_font_sizes/font_size = 24
+text = "Progresso dos Pilares"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer" unique_id=552670536]
+layout_mode = 2
+
+[node name="PillarContainer" type="PanelContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer" unique_id=65544448]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_tg2r8")
+
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer" unique_id=1055058012]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 2
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer/MarginContainer" unique_id=855313262]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer/MarginContainer/HBoxContainer" unique_id=1610194227]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+texture = SubResource("AtlasTexture_ub53g")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer/MarginContainer/HBoxContainer" unique_id=2104824433]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_aowou")
+theme_override_font_sizes/font_size = 12
+text = "Corpo"
+
+[node name="ProgressBar" type="ProgressBar" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer/MarginContainer/HBoxContainer" unique_id=1041799957]
+custom_minimum_size = Vector2(140, 8)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/background = SubResource("StyleBoxFlat_j80dy")
+theme_override_styles/fill = SubResource("StyleBoxFlat_5qdw6")
+value = 58.97
+show_percentage = false
+
+[node name="Control3" type="Control" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer/MarginContainer/HBoxContainer" unique_id=756418751]
+custom_minimum_size = Vector2(10, 0)
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer/MarginContainer/HBoxContainer" unique_id=257761396]
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_gq0io")
+theme_override_font_sizes/font_size = 12
+text = "50%"
+
+[node name="Control2" type="Control" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer/MarginContainer/HBoxContainer" unique_id=2122345986]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect2" type="TextureRect" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer/MarginContainer/HBoxContainer" unique_id=442190483]
+custom_minimum_size = Vector2(6, 6)
+layout_mode = 2
+texture = SubResource("AtlasTexture_pf7je")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="PillarContainer2" type="PanelContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer" unique_id=1432964271]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_tg2r8")
+
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer2" unique_id=380408932]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 2
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer2/MarginContainer" unique_id=1457895647]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer2/MarginContainer/HBoxContainer" unique_id=250595763]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+texture = SubResource("AtlasTexture_1lbyi")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer2/MarginContainer/HBoxContainer" unique_id=1039156730]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_aowou")
+theme_override_font_sizes/font_size = 12
+text = "Mente"
+
+[node name="ProgressBar" type="ProgressBar" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer2/MarginContainer/HBoxContainer" unique_id=1440453040]
+custom_minimum_size = Vector2(140, 8)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/background = SubResource("StyleBoxFlat_j80dy")
+theme_override_styles/fill = SubResource("StyleBoxFlat_a83m2")
+value = 58.97
+show_percentage = false
+
+[node name="Control3" type="Control" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer2/MarginContainer/HBoxContainer" unique_id=1154239415]
+custom_minimum_size = Vector2(10, 0)
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer2/MarginContainer/HBoxContainer" unique_id=971213719]
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_gq0io")
+theme_override_font_sizes/font_size = 12
+text = "50%"
+
+[node name="Control2" type="Control" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer2/MarginContainer/HBoxContainer" unique_id=2002699727]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect2" type="TextureRect" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer2/MarginContainer/HBoxContainer" unique_id=1238662705]
+custom_minimum_size = Vector2(6, 6)
+layout_mode = 2
+texture = SubResource("AtlasTexture_pf7je")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="PillarContainer3" type="PanelContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer" unique_id=1915490272]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_tg2r8")
+
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer3" unique_id=685426641]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 2
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer3/MarginContainer" unique_id=1549034394]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer3/MarginContainer/HBoxContainer" unique_id=277209368]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+texture = SubResource("AtlasTexture_5qdw6")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer3/MarginContainer/HBoxContainer" unique_id=711921809]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_aowou")
+theme_override_font_sizes/font_size = 12
+text = "Emoções"
+
+[node name="ProgressBar" type="ProgressBar" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer3/MarginContainer/HBoxContainer" unique_id=1405334249]
+custom_minimum_size = Vector2(140, 8)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/background = SubResource("StyleBoxFlat_j80dy")
+theme_override_styles/fill = SubResource("StyleBoxFlat_1lbyi")
+value = 58.97
+show_percentage = false
+
+[node name="Control3" type="Control" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer3/MarginContainer/HBoxContainer" unique_id=1803975105]
+custom_minimum_size = Vector2(10, 0)
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer3/MarginContainer/HBoxContainer" unique_id=139872603]
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_gq0io")
+theme_override_font_sizes/font_size = 12
+text = "50%"
+
+[node name="Control2" type="Control" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer3/MarginContainer/HBoxContainer" unique_id=1480539838]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect2" type="TextureRect" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer3/MarginContainer/HBoxContainer" unique_id=1876407294]
+custom_minimum_size = Vector2(6, 6)
+layout_mode = 2
+texture = SubResource("AtlasTexture_pf7je")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="PillarContainer4" type="PanelContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer" unique_id=835701380]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_tg2r8")
+
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer4" unique_id=338795224]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 2
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer4/MarginContainer" unique_id=1962905475]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer4/MarginContainer/HBoxContainer" unique_id=742937931]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+texture = SubResource("AtlasTexture_a83m2")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer4/MarginContainer/HBoxContainer" unique_id=1070239352]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_aowou")
+theme_override_font_sizes/font_size = 12
+text = "Espírito"
+
+[node name="ProgressBar" type="ProgressBar" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer4/MarginContainer/HBoxContainer" unique_id=2126897774]
+custom_minimum_size = Vector2(140, 8)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/background = SubResource("StyleBoxFlat_j80dy")
+theme_override_styles/fill = SubResource("StyleBoxFlat_gq0io")
+value = 58.97
+show_percentage = false
+
+[node name="Control3" type="Control" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer4/MarginContainer/HBoxContainer" unique_id=1091199702]
+custom_minimum_size = Vector2(10, 0)
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer4/MarginContainer/HBoxContainer" unique_id=1475410033]
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_gq0io")
+theme_override_font_sizes/font_size = 12
+text = "50%"
+
+[node name="Control2" type="Control" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer4/MarginContainer/HBoxContainer" unique_id=1200047848]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect2" type="TextureRect" parent="ScrollContainer/MarginContainer/VBoxContainer/VBoxContainer/VBoxContainer/PillarContainer4/MarginContainer/HBoxContainer" unique_id=1982759822]
+custom_minimum_size = Vector2(6, 6)
+layout_mode = 2
+texture = SubResource("AtlasTexture_pf7je")
+expand_mode = 1
+stretch_mode = 5

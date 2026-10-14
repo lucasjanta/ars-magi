@@ -2,29 +2,66 @@
 
 [ext_resource type="PackedScene" uid="uid://cg843ym61xycu" path="res://scenes/today_screen.tscn" id="1_tefeu"]
 [ext_resource type="Texture2D" uid="uid://ccv1awuxk0ec7" path="res://assets/icons/Atlas de icones.png" id="2_0wfyh"]
+[ext_resource type="FontFile" uid="uid://dlebjxrsrt67t" path="res://assets/fonts/Inter-VariableFont_opsz,wght.ttf" id="2_sugp2"]
 
 [sub_resource type="StyleBoxLine" id="StyleBoxLine_ie5d1"]
 color = Color(0.9647059, 0.77254903, 0.32156864, 1)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_o6xl0"]
+[sub_resource type="FontVariation" id="FontVariation_ie5d1"]
+base_font = ExtResource("2_sugp2")
+variation_opentype = {
+1869640570: 30,
+2003265652: 400
+}
+spacing_top = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jyhfs"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.101960786, 0.101960786, 0.101960786, 0)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tbgi4"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.101960786, 0.101960786, 0.101960786, 0)
+border_width_bottom = 2
+border_color = Color(0.972549, 0.78431374, 0.33333334, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_choun"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f1574"]
 atlas = ExtResource("2_0wfyh")
 region = Rect2(456, 70, 189, 183)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_tipki"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_tefeu"]
 atlas = ExtResource("2_0wfyh")
 region = Rect2(1134, 719, 156, 158)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_85g3d"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_o6xl0"]
 atlas = ExtResource("2_0wfyh")
-region = Rect2(142, 939, 135, 112)
+region = Rect2(141, 938, 137, 113)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_choun"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_tipki"]
 atlas = ExtResource("2_0wfyh")
 region = Rect2(1125, 97, 168, 134)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_ya4ey"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_85g3d"]
 atlas = ExtResource("2_0wfyh")
-region = Rect2(493, 926, 103, 127)
+region = Rect2(494, 925, 103, 128)
 
 [node name="Main" type="Control" unique_id=1901844594]
 layout_mode = 3
@@ -71,42 +108,82 @@ layout_mode = 2
 theme_override_constants/separation = 32
 alignment = 1
 
-[node name="TodayButton" type="TextureButton" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=840454062]
+[node name="TodayButton" type="Button" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=1240265008]
 custom_minimum_size = Vector2(40, 40)
 custom_maximum_size = Vector2(40, 40)
 layout_mode = 2
-texture_normal = SubResource("AtlasTexture_o6xl0")
-ignore_texture_size = true
-stretch_mode = 5
+theme_override_constants/icon_max_width = 32
+theme_override_fonts/font = SubResource("FontVariation_ie5d1")
+theme_override_font_sizes/font_size = 6
+theme_override_styles/normal = SubResource("StyleBoxFlat_jyhfs")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_tbgi4")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_choun")
+text = "Hoje"
+icon = SubResource("AtlasTexture_f1574")
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
 
-[node name="FocusButton" type="TextureButton" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=1002231745]
+[node name="FocusButton" type="Button" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=186979829]
 custom_minimum_size = Vector2(40, 40)
 custom_maximum_size = Vector2(40, 40)
 layout_mode = 2
-texture_normal = SubResource("AtlasTexture_tipki")
-ignore_texture_size = true
-stretch_mode = 5
+theme_override_constants/icon_max_width = 32
+theme_override_fonts/font = SubResource("FontVariation_ie5d1")
+theme_override_font_sizes/font_size = 6
+theme_override_styles/normal = SubResource("StyleBoxFlat_jyhfs")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_tbgi4")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_choun")
+text = "Foco"
+icon = SubResource("AtlasTexture_tefeu")
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
 
-[node name="ActivitiesButton" type="TextureButton" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=830242250]
+[node name="ActivitiesButton" type="Button" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=1765406042]
 custom_minimum_size = Vector2(40, 40)
 custom_maximum_size = Vector2(40, 40)
 layout_mode = 2
-texture_normal = SubResource("AtlasTexture_85g3d")
-ignore_texture_size = true
-stretch_mode = 5
+theme_override_constants/icon_max_width = 32
+theme_override_fonts/font = SubResource("FontVariation_ie5d1")
+theme_override_font_sizes/font_size = 6
+theme_override_styles/normal = SubResource("StyleBoxFlat_jyhfs")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_tbgi4")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_choun")
+text = "Atividades"
+icon = SubResource("AtlasTexture_o6xl0")
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
 
-[node name="DiaryButton" type="TextureButton" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=631598347]
+[node name="DiaryButton" type="Button" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=947243969]
 custom_minimum_size = Vector2(40, 40)
 custom_maximum_size = Vector2(40, 40)
 layout_mode = 2
-texture_normal = SubResource("AtlasTexture_choun")
-ignore_texture_size = true
-stretch_mode = 5
+theme_override_constants/icon_max_width = 32
+theme_override_fonts/font = SubResource("FontVariation_ie5d1")
+theme_override_font_sizes/font_size = 6
+theme_override_styles/normal = SubResource("StyleBoxFlat_jyhfs")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_tbgi4")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_choun")
+text = "Diário"
+icon = SubResource("AtlasTexture_tipki")
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
 
-[node name="ProgressButton" type="TextureButton" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=833887678]
+[node name="ProgressButton" type="Button" parent="SafeArea/VBoxContainer/BottomContainer" unique_id=101963275]
 custom_minimum_size = Vector2(40, 40)
 custom_maximum_size = Vector2(40, 40)
 layout_mode = 2
-texture_normal = SubResource("AtlasTexture_ya4ey")
-ignore_texture_size = true
-stretch_mode = 5
+theme_override_constants/icon_max_width = 32
+theme_override_fonts/font = SubResource("FontVariation_ie5d1")
+theme_override_font_sizes/font_size = 6
+theme_override_styles/normal = SubResource("StyleBoxFlat_jyhfs")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_tbgi4")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_choun")
+text = "Progresso"
+icon = SubResource("AtlasTexture_85g3d")
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
